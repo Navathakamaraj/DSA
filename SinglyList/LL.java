@@ -1,3 +1,4 @@
+package SinglyList;
 public class LL{
     private Node head;
     private Node tail;
