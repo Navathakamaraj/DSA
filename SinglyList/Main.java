@@ -5,11 +5,15 @@ public class Main {
         list.insertFirst(10);
         list.insertLast(20);
 
+
         
         list.insertLast(40);
       
-        list.display();
+       
         list.insertMiddle(30,2);
+    
+
+        list.deleteMiddle(1);
         list.display();
 
     }
