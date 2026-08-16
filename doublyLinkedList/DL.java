@@ -98,6 +98,7 @@ public class DL {
         size++;
 }
 
+    //deletefirst
      void deleteFirst(){
     head=head.next;
     head.prev=null;
@@ -105,6 +106,8 @@ public class DL {
             tail=null;
             size--;}
 
+
+    //deleteLast
      void deleteLast(){
         if(size<=1){
             deleteFirst();
@@ -116,6 +119,7 @@ public class DL {
         size--;
     }
 
+    //delete Middle
     void deleteMiddle(int index){
          if(index==0){
             deleteFirst();
@@ -136,12 +140,7 @@ public class DL {
 
     }
 
-    
-
-
-
-
-   private  class Node{
+     private  class Node{
 
        public int data;
        public  Node next;
@@ -157,12 +156,6 @@ public class DL {
             this.prev=prev;
         }
 
-        
-
-
-
     }
 
-
-    
 }
